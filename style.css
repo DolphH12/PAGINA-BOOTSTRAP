@@ -1,0 +1,37 @@
+:root{
+    --primary: rgb(130, 206, 17);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    min-height: 80px;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.content{
+    max-width: 500px;
+}
+
+.image_view{
+    width: 100%;
+}
+
+.hero{
+    height: 900px;
+}
